@@ -1,13 +1,10 @@
-// Creat a web server
-// 1. Import express
-const express = require('express');
-const app = express();
-// 2. Create a web server
-// 3. Create a route
-app.get('/comments', (req, res) => {
-    res.send('Comments page');
-});
-// 4. Start the server
-app.listen(3000, () => {
-    console.log('Server is running on port 3000');
-});
+// Create web server
+// Create a web server that listens to the port 3000 and returns the comments.js file when requested by the client.
+
+// The comments.js file should be created in the same directory as the server file. The content of the comments.js file should be:
+
+// const comments = [
+//   { username: "Lucas", comment: "Ain't nobody got time for that!" },
+//   { username: "Alan", comment: "I'm a go getter." },
+//   { username: "Lucas", comment: "I'm a boss!" },
+//   { username: "Alan",
